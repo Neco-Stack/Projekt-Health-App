@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "urbanist";
+    src: url(../fonts/Urbanist-Black.ttf);
+}
+@font-face {
+    font-family: "urbanist-bold";
+    src: url(..//fonts/Urbanist-Bold.ttf);
+}
+@font-face {
+    font-family: "urbanist-medium";
+    src: url(../fonts/Urbanist-Medium.ttf);
+}
+@font-face {
+    font-family: "urbanist-light";
+    src: url(../fonts/Urbanist-Light.ttf);
+}
+@font-face {
+    font-family: "urbanist-extrabold";
+    src: url(../fonts/Urbanist-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "urbanist-semibold";
+    src: url(../fonts/Urbanist-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "urbanist";
+}
+header{
+    background-color:#1A3129;
+    display: flex;
+    flex-direction: column; 
+    gap: 3vw;
+    align-items: center;
+}
+.top-banner{
+    display: flex;
+    background-color: #2C5446;
+    color: white;
+    align-items: center;
+    max-width: 80vw;
+}
+.top-banner-inside{
+    display: flex;
+    font-family: "urbanist-light";
+}
+.navigation{
+    display: flex;  
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+}
+.logo{
+    justify-content: flex-start;
+}
+.nav-right{
+    display: flex;
+}
+.nav-right ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "urbanist-light";
+}
+
+/* end of the header, start of main------------------------------------ */
+
+.main-section{
+    display: flex;
+}
+.main-left{
+    display: flex;
+}
+.model{
+    max-width: 100%;
+    max-height: 100%;
+    width: 80vw;
+}
+.main-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    
+}
+.main-right-first{
+    display: flex;
+    flex-direction: column;
+
+}
+.main-right-last{
+    display: flex;
+}
+.welcome{
+    font-family: "ubuntu-light";
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.starter-today{
+    font-size: 1.0rem;
+    padding: 5px;
+}
+.book-demo{
+    font-size: 1.0rem;
+    padding: 5px;
+    margin-left: 0.5rem;
+}
+
