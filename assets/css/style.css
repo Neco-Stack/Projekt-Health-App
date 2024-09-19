@@ -76,13 +76,14 @@ a{
 
 .main-section{
     display: flex;
+    background-color: #FAFDF2;
 }
 .main-left{
     display: flex;
 }
 .model{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 95%;
+    max-height: 95%;
     width: 80vw;
 }
 .main-right{
@@ -104,14 +105,32 @@ a{
     font-family: "ubuntu-light";
     margin-top: 2rem;
     font-size: 1rem;
+    min-width: 50%;
 }
 .starter-today{
     font-size: 1.0rem;
-    padding: 5px;
+    padding: 10px;
+    background-color: #CBEA7B;
+    border-style: none;
+    border-radius: 10px;
+
 }
 .book-demo{
     font-size: 1.0rem;
-    padding: 5px;
+    padding: 10px;
     margin-left: 0.5rem;
+    border-color: #CBEA7B;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
 }
+.review{
+    max-width: 60%;
+    max-height: 80%;
+}
+.transform{
+    text-decoration: underline #CBEA7B;
+    text-underline-offset: 5px;
+}
+/* the first main part ends and feature section starts */
 
