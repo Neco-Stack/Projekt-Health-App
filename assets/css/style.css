@@ -43,15 +43,20 @@ header{
     background-color: #2C5446;
     color: white;
     align-items: center;
-    max-width: 80vw;
+    width: 80vw;
+    justify-content: center;
 }
 .top-banner-inside{
     display: flex;
     font-family: "urbanist-light";
+    justify-content: center;
 }
 .navigation{
     display: flex;  
     align-items: center;
+    justify-content: space-around;
+    width: 110vw;
+    margin-bottom: 2vw;
 }
 .nav-left{
     display: flex;
@@ -61,15 +66,36 @@ header{
 }
 .nav-right{
     display: flex;
+    gap: 4em;
+    align-items: center;
 }
 .nav-right ul{
     display: flex;
     list-style-type: none;
+    gap: 2em;
 }
 a{
     text-decoration: none;
     color: white;
     font-family: "urbanist-light";
+}
+.contact-button{
+    background-color: #CBEA7B;
+    color: black;
+    font-family: "urbanist-medium";
+    padding: 15px;
+    border-radius: 8px;
+    border-style: none;
+}
+.personalized{
+    padding: 15px;
+}
+.transform{
+    padding: 10px;
+}
+.welcome{
+    font-family: "urbanist-light";
+    ;
 }
 
 /* end of the header, start of main------------------------------------ */
@@ -191,4 +217,41 @@ a{
     font-size: 0.8em;
     font-family: "urbanist-light";
 }
+/* hier ends the second main and the form section starts */
 
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #FAFDF2;
+}
+.body-length{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.age{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.gender-klick{
+    display: flex;
+    align-items: center;
+}
+.test{
+    text-align: center;
+}
+.test-text{
+    text-align: center;
+    font-family: "urbanist-light";
+    margin-bottom: 5em;
+}
+.last-section{
+    background-color: #FAFDF2;
+}
+.main{
+    background-color: #FAFDF2;
+}
